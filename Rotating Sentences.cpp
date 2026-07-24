@@ -9,11 +9,12 @@ int main(){
     while (getline(cin, line[i])){
         i++;
     }
-    int row = i;
-    while (row){
-        for (int col = row; j < i; j++){
-            cout << string[row][col]
+    int row = i-1;
+    while (row >= 0){
+        for (int col = 0; col < line[row].length(); col++){
+            cout << line[col][row];
         }
+        cout << "\n";
         row--;
     }
     
