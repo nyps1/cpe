@@ -102,7 +102,6 @@ void drawing(int digit, int j, int i, int s){
 }
 
 void draw(string n, int s){
-    
     int total = 0;
     vector<int> num;
     for(char c:n){
