@@ -29,3 +29,7 @@ int main(){
         
     }
 }
+
+
+//https://cpe.mcu.edu.tw/cpe/test_data/problems
+//This is the whole CPE problem
